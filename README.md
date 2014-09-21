@@ -13,4 +13,4 @@ Lanyon Jekyll theme - https://github.com/poole/lanyon
 
 License
 ---------------------
-Code open sourced under the MIT license. Content and images cortesy of Marcus Efraimsson if nothing else stated.
+Code open sourced under the MIT license. Blog post content and images cortesy of Marcus Efraimsson if nothing else stated.
