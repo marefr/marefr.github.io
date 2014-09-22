@@ -8,7 +8,7 @@ Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content 
 
 <!-- more -->
 
-{% gist parkr/931c1c8d465a04042403 jekyll-private-gist.markdown %}
+{% gist mjibson/5052106 Extractor.cs %}
 
 ### <a name="more"></a> Built on Poole
 
