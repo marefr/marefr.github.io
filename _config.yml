@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Marcus Efraimsson'
+tagline:          "Let's Get Personal"
+description:      "Marcus Efraimsson is a software developer, thinker, blogger with an appetite for technical challenges and new technology."
+url:              http://marcus-e.se
+baseurl:          '/'
+paginate:         5
+paginate_path:    "/page/:num"
+
+meta:
+    keywords:     'Marcus, Efraimsson, Developer, Computer, Programming, .NET, C#, ASP.NET, Code, Blog, Stockholm, Software Development'
+    description:  "Marcus Efraimsson is a software developer, blogger, thinker and more."
+author:
+  name:           'Marcus Efraimsson'
+  google:         https://plus.google.com/111244687668180692577
+  twitter:        https://twitter.com/mefraimsson
+  facebook:       https://www.facebook.com/marcus.efraimsson
+  linkedin:       https://www.linkedin.com/in/marcusefraimsson
+  github:         https://github.com/marefr
+
+# Custom vars
+disqus_shortname: marcus-e
+analytics:        UA-37826303-2
+
+github:
+  repo:           https://github.com/marefr/marefr.github.io

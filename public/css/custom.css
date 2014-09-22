@@ -1,0 +1,144 @@
+.avatar {
+  margin: 0 auto;
+  float: none;
+  margin-top: 40px;
+}
+
+.avatar,
+.avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.author{
+    margin-bottom:1em;
+}
+
+.author header{
+    float:left;
+    width: 80px;
+}
+
+.author article{
+    margin-left:80px;
+    min-height: 80px;
+    padding-left:20px;
+}
+
+.post-footer {
+    position: relative;
+    margin: 2em 0 0 0;
+    padding: 2em 0 0 0;
+    border-top: #EBF2F6 1px solid;
+}
+
+.post-footer h4 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.post-footer p {
+    margin: 0.5em 0;
+    font-size: 0.75em;
+    line-height: 1.2em;
+}
+
+.post-footer .author {
+    margin-right: 180px;
+}
+
+.post-footer .author a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.post-footer .author .avatar {
+    margin-top: 20px;
+}
+
+.social-icons img {
+    display: inline;
+    border-radius: 0;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    background: #FFFFFF;
+}
+
+.sidebar-nav-item .social-icons img {
+    width: 32px;
+    height: 32px;
+    margin-right: 1px;
+}
+
+.author .social-icons a, .sidebar-nav-item .social-icons a {
+    text-decoration: none;
+}
+
+.post-footer .share {
+    position: absolute;
+    top: 2em;
+    right: 0;
+    width: 140px;
+    height: auto;
+}
+
+.post-footer .share span {
+    display: inline-block;
+    font-size: 0.75em;
+    line-height: 1.2em;
+}
+
+.post-footer .share a {
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .avatar {
+      margin-top: 60px;
+    }
+
+    .post-footer {
+        padding: 1em 0 0 0;
+    }
+
+    .post-footer .author {
+        margin: 0 0 1em 0;
+        padding: 0 0 1em 0;
+        border-bottom: #EBF2F6 1px solid;
+    }
+
+    .post-footer .author header{
+        float:left;
+        width: 50px;
+    }
+
+    .post-footer .author article{
+        margin-left:50px;
+        min-height: 50px;
+        padding-left:10px;
+    }
+
+    .post-footer .author .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+    }
+
+    .post-footer .share {
+        position: static;
+        width: auto;
+        text-align: center;
+        top: 0;
+        margin-bottom: 1em;
+    }
+
+    .post-footer .share a {
+        margin: 0;
+    }
+
+    .sidebar-nav-item .social-icons img {
+        margin: 5px 5px 5px 0;
+    }
+}

@@ -1,0 +1,29 @@
+{% if page.disqus %}
+<script type="text/javascript">
+    var disqus_shortname = '{{ site.disqus_shortname }}';
+    var disqus_identifier = '{{ page.id }}';
+    var disqus_title = '{{ page.title | xml_escape }}';
+    var disqus_url = '{{ site.url }}{{ page.url }}';
+
+    $(function(){
+        var disqus_div = $("#disqus_thread");
+        if (disqus_div.size() > 0 ) {
+            var ds_loaded = false,
+                top = disqus_div.offset().top,
+                check = function(){
+                    if ( !ds_loaded && $(window).scrollTop() + $(window).height() > top ) {
+                        ds_loaded = true;
+                        var dsq = document.createElement('script');
+                        dsq.type = 'text/javascript';
+                        dsq.async = true;
+                        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    }
+                };
+
+            $(window).scroll(check);
+            check();
+    }
+});
+</script>
+{% endif %}
