@@ -10,6 +10,7 @@ Feel free to [open an issue](https://github.com/marefr/marefr.github.io/issues/n
 Credits
 ---------------------
 Lanyon Jekyll theme - https://github.com/poole/lanyon
+Social Media Icons V2 - http://ctrla.lt/social-media-share-icons-v2-flat-metro-free-download/
 
 License
 ---------------------
