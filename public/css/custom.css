@@ -57,21 +57,6 @@
     margin-top: 20px;
 }
 
-.social-icons img {
-    display: inline;
-    border-radius: 0;
-    width: 24px;
-    height: 24px;
-    margin: 0;
-    background: #FFFFFF;
-}
-
-.sidebar-nav-item .social-icons img {
-    width: 32px;
-    height: 32px;
-    margin-right: 1px;
-}
-
 .author .social-icons a, .sidebar-nav-item .social-icons a {
     text-decoration: none;
 }
@@ -92,6 +77,68 @@
 
 .post-footer .share a {
     font-size: 1em;
+}
+
+.social-icons a {
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 1px;
+}
+
+.sidebar .social-icons a {
+    background: #000;
+}
+
+.author .social-icons a:hover {
+    color: #FFF;
+}
+
+.social-icons a.twitter:hover {
+    background: #2fc2ef;
+}
+
+.social-icons a.facebook:hover {
+    background: #4c66a4;
+}
+
+.social-icons a.linkedin:hover {
+    background: #4875B4;
+}
+
+.social-icons a.google-plus:hover {
+    background: #C63D2D;
+}
+
+.social-icons a.github:hover {
+    background: #FFF;
+}
+
+.social-icons a.github:hover > i {
+    color: #000;
+}
+
+.author .social-icons a.github:hover {
+    background: #000;
+}
+
+.author .social-icons a.github:hover > i {
+    color: #FFF;
+}
+
+.social-icons a.rss:hover {
+    background: #f90;
+}
+
+.social-icons .fa {
+    font-size: 1.5em;
+}
+
+.author .social-icons .fa {
+    font-size: 1.2em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -140,5 +187,17 @@
 
     .sidebar-nav-item .social-icons img {
         margin: 5px 5px 5px 0;
+    }
+
+    .sidebar .social-icons a {
+        width: 48px;
+        height: 48px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    .sidebar .social-icons .fa {
+        font-size: 2.5em;
     }
 }
