@@ -12,6 +12,7 @@ My name is <a href="{{ site.author.google }}?rel=me" rel="me" target="_blank">{{
 * <a href="{{ site.author.facebook }}" rel="me" target="_blank">Facebook</a>
 * <a href="{{ site.author.linkedin }}" rel="me" target="_blank">Linkedin</a>
 * <a href="{{ site.author.github }}" rel="me" target="_blank">Github</a>
+* <a href="{{ site.author.stack_overflow }}" rel="me" target="_blank">Stack Overflow</a>
 
 ## Bugs, questions or suggestions?
 Feel free to [open an issue]({{ site.github.repo }}/issues/new) or ask me on <a href="{{ site.author.twitter }}" rel="me" target="_blank">Twitter</a>.
