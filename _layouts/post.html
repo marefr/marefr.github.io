@@ -9,7 +9,7 @@ disqus_comment_count: true
   </header>
   <span class="post-date">{{ page.date | date_to_string }} | <a href="#disqus_thread" data-disqus-identifier="{{ page.id }}">0 Comments</a></span>
   <section class="post-content">
-    {{ content }}
+    {{ content | replace_first:'<!-- more -->','<div id="read-more"></div>' }}
   </section>
   <footer class="post-footer">
     <section class="author">
