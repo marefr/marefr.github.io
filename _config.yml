@@ -31,3 +31,13 @@ analytics:        UA-37826303-2
 
 github:
   repo:           https://github.com/marefr/marefr.github.io
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      sitemap:
+        changefreq:         weekly
+        priority:           0.9
