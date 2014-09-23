@@ -114,19 +114,7 @@
 }
 
 .social-icons a.github:hover {
-    background: #FFF;
-}
-
-.social-icons a.github:hover > i {
-    color: #000;
-}
-
-.author .social-icons a.github:hover {
-    background: #000;
-}
-
-.author .social-icons a.github:hover > i {
-    color: #FFF;
+    background: #AAA;
 }
 
 .social-icons a.rss:hover {
