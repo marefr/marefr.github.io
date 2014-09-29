@@ -1,0 +1,10 @@
+{% if page.is_post %}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@mefraimsson" />
+  <meta name="twitter:creator" content="@mefraimsson" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+{% if page.content | contains '<!-- more -->' %}
+  <meta property="twitter:description" content="{{ page.content | split: '<!-- more -->' | first | xml_escape | strip_newlines }}" />
+{% endif %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+{% endif %}

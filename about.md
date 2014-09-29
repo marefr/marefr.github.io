@@ -3,6 +3,7 @@ layout: page
 title: About
 published: true
 permalink: /about/
+is_profile: true
 sitemap:
   changefreq:         weekly
   priority:           1.0

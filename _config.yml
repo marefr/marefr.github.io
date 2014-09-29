@@ -19,6 +19,8 @@ meta:
     description:  "Marcus Efraimsson is a software developer, blogger, thinker and more."
 author:
   name:           'Marcus Efraimsson'
+  first_name:     Marcus
+  lastname:       Efraimsson
   google:         https://plus.google.com/111244687668180692577
   twitter:        https://twitter.com/mefraimsson
   facebook:       https://www.facebook.com/marcus.efraimsson
@@ -29,6 +31,7 @@ author:
 # Custom vars
 disqus_shortname: marcus-e
 analytics:        UA-37826303-2
+facebook_appid:   828922030493446
 
 github:
   repo:           https://github.com/marefr/marefr.github.io
