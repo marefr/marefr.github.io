@@ -2,6 +2,7 @@
 layout: page
 title: About
 published: true
+permalink: /about/
 sitemap:
   changefreq:         weekly
   priority:           1.0
