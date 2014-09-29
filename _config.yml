@@ -16,7 +16,7 @@ paginate_path:    "/page/:num"
 
 meta:
     keywords:     'Marcus, Efraimsson, Developer, Computer, Programming, .NET, C#, ASP.NET, Code, Blog, Stockholm, Software Development'
-    description:  "Marcus Efraimsson is a software developer, blogger, thinker and more."
+    description:  "Marcus Efraimsson is a software developer and blogger from Stockholm, Sweden."
 author:
   name:           'Marcus Efraimsson'
   first_name:     Marcus
