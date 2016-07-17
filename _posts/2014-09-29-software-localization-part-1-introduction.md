@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Software Localization Part 1: Introduction'
 published: True
 summary: "In this multipart series I will discuss the challenges, difficulties and different strategies of adapting multi-language support in software, mainly targeting an existing product built on the .NET platform. In this first part there will be an introduction to the basic concepts of software localization."
