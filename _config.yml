@@ -9,7 +9,7 @@ permalink:        /:year/:month/:day/:title/
 title:            'Marcus Efraimsson'
 tagline:          "Let's Get Personal"
 description:      "Marcus Efraimsson is a software developer, thinker, blogger with an appetite for technical challenges and new technology."
-url:              http://marcus-e.se
+url:              https://marcus-e.se
 baseurl:          '/'
 paginate:         5
 paginate_path:    "/page/:num"
