@@ -1,7 +1,7 @@
 Marcus Efraimsson's personal website
 ================
 
-Hosted with love by Github at http://marcus-e.se
+Hosted with love by Github at https://marcus-e.se
 
 Bugs, questions or suggestions
 ---------------------
