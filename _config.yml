@@ -1,6 +1,6 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:         true
+# Plugins
+gems:
+   - jekyll-paginate
 
 # Permalinks
 permalink:        /:year/:month/:day/:title/
@@ -43,6 +43,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      is_post: true
+      disqus: true
+      disqus_comment_count: true
       sitemap:
         changefreq:         weekly
         priority:           0.9
