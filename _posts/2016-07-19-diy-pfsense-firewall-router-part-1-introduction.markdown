@@ -1,5 +1,4 @@
 ---
-date: 2016-07-19 18:25 -02:00
 title: 'DIY pfSense Firewall/Router Part 1: Introduction'
 published: true
 summary: "When i moved to a new appartment some time ago there was already a router installed and provided by my ISP. The router was responsible for routing WAN and IPTV traffic and acted as a Wireless Access Point. However the router was completely locked down and there were no way to access it. I started to look for a replacement and quite soon I found a match made in heaven - pfSense as firewall/router on my own hardware."
