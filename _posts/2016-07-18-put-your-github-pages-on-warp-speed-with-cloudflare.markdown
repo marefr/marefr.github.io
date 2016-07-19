@@ -4,6 +4,13 @@ published: true
 summary: "By using a custom domain for your GitHub page you can utilize CloudFlare to make your site secure and faster for your visitors, for free. I will also show you some more features that CloudFlare has to offer."
 categories: [ "hosting" ]
 tags: [ "CloudFlare", "GitHub", "Security" ]
+image:
+  thumbnail:
+    src: /public/uploads/cloudflare-logo-thumb.png
+    alt: Cloudflare logo
+  large:
+    src: /public/uploads/cloudflare-logo-large.png
+    alt: Cloudflare logo
 sitemap:
   lastmod: 2016-07-18 19:00
 ---

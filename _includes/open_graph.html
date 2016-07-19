@@ -25,11 +25,17 @@
   <meta property="profile:first_name" content="{{ site.author.first_name }}">
   <meta property="profile:last_name" content="{{ site.author.lastname }}">
   <meta property="profile:gender" content="male">
-  <meta property="profile:username" content="johndoe">
+  <meta property="profile:username" content="marcus.efraimsson">
 {% else %}
   <meta property="og:type" content="website" />
 {% endif %}
-  <meta property="og:image" content="{{ site.url }}/public/images/avatar.jpg" />
+{% if page.image and page.image.large %}
+  <meta property="og:image" content="{{site.url}}{{page.image.large.src}}" />
+{% elsif page.image and page.image.thumbnail %}
+  <meta property="og:image" content="{{site.url}}{{page.image.thumbnail.src}}" />
+{% else %}
+  <meta property="og:image" content="{{site.url}}/public/images/avatar.jpg" />
+{% endif %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   <meta property="og:site_name" content="{{ site.title }}"/>
   <meta property="og:app_id" content="{{ site.facebook_appid }}" />

@@ -7,6 +7,9 @@ layout: default
   </header>
   <span class="post-date">{{ page.date | date_to_string }} | <a href="#disqus_thread" data-disqus-identifier="{{ page.id }}">0 Comments</a></span>
   <section class="post-content">
+    {% if page.image and page.image.large %}
+      <img src="{{page.image.large.src}}" alt="{{page.image.large.alt}}" title="{{page.image.large.alt}}" class="post-image" />
+      {% endif %}
     {{ content | replace_first:'<!-- more -->','<div id="read-more"></div>' }}
   </section>
   <footer class="post-footer">

@@ -1,10 +1,22 @@
 {% if page.is_post %}
+  {% if page.image and page.image.large %}
+  <meta name="twitter:card" content="summary_large_image" />
+  {% else %}
   <meta name="twitter:card" content="summary" />
+  {% endif %}
   <meta name="twitter:site" content="@mefraimsson" />
+  {% if page.image and page.image.large %}
   <meta name="twitter:creator" content="@mefraimsson" />
+  {% endif %}
   <meta name="twitter:title" content="{{ page.title }}" />
-{% if page.summary != null %}
+  {% if page.summary != null %}
   <meta property="twitter:description" content="{{ page.summary }}" />
-{% endif %}
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+  {% endif %}
+  {% if page.image and page.image.large %}
+  <meta name="twitter:image" content="{{site.url}}{{page.image.large.src}}" />
+  <meta name="twitter:image:alt" content="{{page.image.large.alt}}" />
+  {% else if page.image and page.image.thumbnail %}
+  <meta name="twitter:image" content="{{site.url}}{{page.image.thumbnail.src}}" />
+  <meta name="twitter:image:alt" content="{{page.image.thumbnail.alt}}" />
+  {% endif %}
 {% endif %}

@@ -26,11 +26,26 @@
     padding-left:20px;
 }
 
+.post-content {
+    overflow: hidden;
+}
+
 .post-footer {
     position: relative;
     margin: 2em 0 0 0;
     padding: 2em 0 0 0;
     border-top: #EBF2F6 1px solid;
+}
+
+.post-thumbnail {
+    margin: 0 auto 1rem;
+}
+
+@media (min-width: 38em) {
+  .post-thumbnail {
+    max-width: 30%;
+    float: right;
+  }
 }
 
 .post-footer h4 {
