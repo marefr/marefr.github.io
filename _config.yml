@@ -6,6 +6,7 @@ gems:
 permalink:        /:year/:month/:day/:title/
 
 # Setup
+timezone:         'Europe/Stockholm'
 title:            'Marcus Efraimsson'
 tagline:          "Let's Get Personal"
 description:      "Marcus Efraimsson is a software developer, thinker, blogger with an appetite for technical challenges and new technology."
