@@ -14,3 +14,5 @@ image:
 sitemap:
   lastmod:
 ---
+
+<!-- more -->
