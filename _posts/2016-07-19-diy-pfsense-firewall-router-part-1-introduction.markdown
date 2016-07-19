@@ -1,4 +1,5 @@
 ---
+date: 2016-07-19 18:25
 title: 'DIY pfSense Firewall/Router Part 1: Introduction'
 published: true
 summary: "When i moved to a new appartment some time ago there was already a router installed and provided by my ISP. The router was responsible for routing WAN and IPTV traffic and acted as a Wireless Access Point. However the router was completely locked down and there were no way to access it. I started to look for a replacement and quite soon I found a match made in heaven - pfSense as firewall/router on my own hardware."
@@ -36,7 +37,7 @@ I found an Intel Celeron 1037U Mini Desktop Computer on [AliExpress](http://www.
 * Wireless support/dual antenna with extension card
 * Cheap, about $184 plus $50 in custom (imported from China to Sweden)
 
-![Intel Celeron 1037U Mini Desktop Computer inside look](/public/uploads/celeron-1037u-mini-desktop-computer-inside.jpg "Intel Celeron 1037U Mini Desktop Computer inside look")
+<a href="/public/uploads/celeron-1037u-mini-desktop-computer-inside.jpg">![Intel Celeron 1037U Mini Desktop Computer inside look](/public/uploads/celeron-1037u-mini-desktop-computer-inside.jpg "Intel Celeron 1037U Mini Desktop Computer inside look")</a>
 *[Image](http://g03.a.alicdn.com/kf/HTB1dErxGXXXXXcxXVXXq6xXFXXXp/202292472/HTB1dErxGXXXXXcxXVXXq6xXFXXXp.jpg) by [Eglobal Technology Co Ltd](http://www.eglobaltech.cn/)*
 
 ### Technical Specification
@@ -187,12 +188,22 @@ I found an Intel Celeron 1037U Mini Desktop Computer on [AliExpress](http://www.
 ## Assembly
 Everything arrived pre-assembled. Just needed to plugin the power cord and I was good to go. Really good first time experience of shopping at AliExpress.
 
-![Intel Celeron 1037U Mini Desktop Computer box](/public/uploads/celeron-1037u-mini-desktop-computer-box.jpg "Intel Celeron 1037U Mini Desktop Computer box")
+<a href="/public/uploads/celeron-1037u-mini-desktop-computer-box.jpg">![Intel Celeron 1037U Mini Desktop Computer box](/public/uploads/celeron-1037u-mini-desktop-computer-box.jpg "Intel Celeron 1037U Mini Desktop Computer box")</a>
 *[Image](http://g03.a.alicdn.com/kf/HTB1qZ4TLVXXXXXbapXXq6xXFXXXs/Barebone-Fanless-Mini-PC-N3150-Barebone-Nettop-PC-No-RAM-No-HDD-SSD-RTL8111DL-RJ45-Lan.jpg) by [Eglobal Technology Co Ltd](http://www.eglobaltech.cn/)*
 
-![Intel Celeron 1037U Mini Desktop Computer parts](/public/uploads/celeron-1037u-mini-desktop-computer-parts.jpg "Intel Celeron 1037U Mini Desktop Computer parts")
+<a href="/public/uploads/celeron-1037u-mini-desktop-computer-parts.jpg">![Intel Celeron 1037U Mini Desktop Computer parts](/public/uploads/celeron-1037u-mini-desktop-computer-parts.jpg "Intel Celeron 1037U Mini Desktop Computer parts")</a>
 *[Image](http://g02.a.alicdn.com/kf/HTB1pF8kIXXXXXa8XpXXq6xXFXXX4/Free-Shipping-Cost-Celeron-1037U-Mini-Desktop-Computer-PC-2GB-RAM-8GB-SSD-Mini-ITX-Case.jpg) by [Eglobal Technology Co Ltd](http://www.eglobaltech.cn/)*
 
 This concludes the first part. In the next post I'll show how to install pfSense and do some general setup.
+
+### Related articles
+
+<ul class="related-posts">
+  {% for post in site.categories.diy reversed %}
+    {% if post.url != page.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 [1]:https://en.wikipedia.org/wiki/PfSense
