@@ -2,7 +2,7 @@
 date: 2016-07-21 13:30
 title: 'DIY pfSense Firewall/Router Part 2: Installation'
 published: true
-summary: ""
+summary: "In the first part I introduced pfSense and the hardware I'm using for building my firewall/router. In this part I'll show how to install pfSense and do some general setup."
 categories: [ "diy" ]
 tags: [ "pfSense", "firewall", "router" ]
 image:
