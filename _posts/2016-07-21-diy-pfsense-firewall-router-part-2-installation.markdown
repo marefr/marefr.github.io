@@ -1,5 +1,5 @@
 ---
-date: 2016-07-21 13:30
+date: 2016-07-21 13:31
 title: 'DIY pfSense Firewall/Router Part 2: Installation'
 published: true
 summary: "In the first part I introduced pfSense and the hardware I'm using for building my firewall/router. In this part I'll show how to install pfSense and do some general setup."
@@ -10,7 +10,7 @@ image:
     src: /public/uploads/pfsense-logo-thumb.png
     alt: pfSense logo
 sitemap:
-  lastmod: 2016-07-21 14:30
+  lastmod: 2016-07-21 14:31
 ---
 
 In the [first part]({% post_url 2016-07-19-diy-pfsense-firewall-router-part-1-introduction %}) I introduced pfSense and the hardware I'm using for building my firewall/router. In this part I'll show how to install pfSense and do some general setup.
