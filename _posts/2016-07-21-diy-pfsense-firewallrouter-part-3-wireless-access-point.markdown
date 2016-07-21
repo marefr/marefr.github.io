@@ -1,5 +1,5 @@
 ---
-date: 2016-07-21 14:00
+date: 2016-07-21 15:00
 title: 'DIY pfSense Firewall/Router Part 3: Wireless Access Point'
 published: true
 summary: "In the second part we installed pfSense and did some general setup. In this part I'll show you how I configured my pfSense to act as a wireless access point."
@@ -10,7 +10,7 @@ image:
     src: /public/uploads/wifi-thumb.png
     alt: "Wifi logo"
 sitemap:
-  lastmod: 2016-07-21 15:00
+  lastmod: 2016-07-21 16:00
 ---
 
 In the [second part]({% post_url 2016-07-21-diy-pfsense-firewall-router-part-2-installation %}) we installed pfSense and did some general setup. In this part I'll show you how I setup my pfSense to act as a wireless access point.
