@@ -4,13 +4,6 @@ published: true
 summary: "In this post I will show you how I got KoreBuild to work on Travis CI for building and testing your .NET Core projects in a Linux and Mac environment."
 categories: [ "Development" ]
 tags: [ ".NET Core", "Travis CI", "KoreBuild" ]
-image:
-  thumbnail:
-    src:
-    alt:
-  large:
-    src:
-    alt:
 sitemap:
   lastmod: 2016-07-27 23:30
 ---

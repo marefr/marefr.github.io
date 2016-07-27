@@ -15,7 +15,7 @@
   {% if page.image and page.image.large %}
   <meta name="twitter:image" content="{{site.url}}{{page.image.large.src}}" />
   <meta name="twitter:image:alt" content="{{page.image.large.alt}}" />
-  {% else if page.image and page.image.thumbnail %}
+  {% elsif page.image and page.image.thumbnail %}
   <meta name="twitter:image" content="{{site.url}}{{page.image.thumbnail.src}}" />
   <meta name="twitter:image:alt" content="{{page.image.thumbnail.alt}}" />
   {% endif %}
