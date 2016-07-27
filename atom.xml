@@ -20,7 +20,7 @@ layout: null
        <id>{{ site.url }}{{ post.id }}</id>
        <updated>{{ post.date | date_to_xmlschema }}</updated>
        <summary type="html">{{ post.content | split: '<!-- more -->' | first | xml_escape }}</summary>
-       <content type="html">{{ post.content | xml_escape }}</content>
+       <content type="html">{{ post.content | replace:'/public/uploads','http://example.com/public/uploads' | xml_escape | replace: 'http://example.com', site.url }}</content>
      </entry>
      {% endfor %}
 </feed>
