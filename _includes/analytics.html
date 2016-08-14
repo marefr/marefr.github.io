@@ -1,4 +1,4 @@
-{% if site.analytics %}
+{% if jekyll.environment == 'production' and site.analytics %}
 <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', '{{ site.analytics }}']);

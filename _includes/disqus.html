@@ -1,4 +1,4 @@
-{% if page.disqus %}
+{% if jekyll.environment == 'production' and page.disqus %}
 <script type="text/javascript">
     var disqus_shortname = '{{ site.disqus_shortname }}';
     var disqus_identifier = '{{ page.id }}';
