@@ -13,7 +13,7 @@ disqus_comment_count: true
       {% if post.image and post.image.thumbnail %}
       <img src="{{post.image.thumbnail.src}}" alt="{{post.image.thumbnail.alt}}" title="{{post.image.thumbnail.alt}}" class="post-thumbnail" />
       {% endif %}
-      {% if post.content | contains '<!-- more -->' %}
+      {% if post.content contains '<!-- more -->' %}
         {{ post.content | split: '<!-- more -->' | first }}
         <a href="{{ post.url }}#read-more">Read more</a>
       {% else %}

@@ -1,5 +1,5 @@
 # Plugins
-gems:
+plugins:
    - jekyll-paginate
 
 # Permalinks
@@ -16,13 +16,12 @@ paginate:         5
 paginate_path:    "/page/:num"
 
 meta:
-    keywords:     'Marcus, Efraimsson, Developer, Computer, Programming, .NET, C#, ASP.NET, Code, Blog, Stockholm, Software Development'
+    keywords:     'Marcus, Efraimsson, Developer, Computer, Programming, Go, Golang, Code, Blog, Stockholm, Software Development'
     description:  "Marcus Efraimsson is a software developer and blogger from Stockholm, Sweden."
 author:
   name:           'Marcus Efraimsson'
   first_name:     Marcus
   lastname:       Efraimsson
-  google:         https://plus.google.com/111244687668180692577
   twitter:        https://twitter.com/mefraimsson
   facebook:       https://www.facebook.com/marcus.efraimsson
   linkedin:       https://www.linkedin.com/in/marcusefraimsson
@@ -50,3 +49,6 @@ defaults:
       sitemap:
         changefreq:         weekly
         priority:           0.9
+
+exclude:
+  - vendor
